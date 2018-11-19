@@ -3,8 +3,6 @@ import scrapy
 import re
 from jingdong.items import JingdongItem
 import json
-import demjson
-import xpinyin
 
 
 class SpiderSpider(scrapy.Spider):
